@@ -22,10 +22,9 @@ $(document).ready(function(){
 
 			var prevState = $('#container').html();
 
+			$('#container').html(prevState +'<br>'+ newMessage);
 
-			$('#container').html(prevState + newMessage);
-
-
+			$('#container').scrollTop($('#container').prop('scrollHeight'));
 		});
 });
 

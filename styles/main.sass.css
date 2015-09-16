@@ -18,11 +18,13 @@ body {
 
 #container {
   width: 80%;
-  height: 30em;
+  height: 20em;
   margin: 0em auto;
   margin-top: 2em;
   background-color: white;
-  border: .1em solid #333; }
+  border: .1em solid #333;
+  border-radius: .3em;
+  overflow: scroll; }
 
 #controls {
   width: 80%;
@@ -32,8 +34,12 @@ textarea {
   resize: none;
   width: 99%;
   height: 3em;
-  margin: 1.5em 0em; }
+  margin: 1.5em 0em;
+  border-radius: .3em; }
 
 #send {
   font-size: 1em;
-  font-family: Coda, Arial, san-serif; }
+  background: #333;
+  color: white;
+  font-family: Coda, Arial, san-serif;
+  border: none; }
