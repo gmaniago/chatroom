@@ -43,3 +43,7 @@ textarea {
   color: white;
   font-family: Coda, Arial, san-serif;
   border: none; }
+
+span {
+  color: red;
+  font-weight: bold; }

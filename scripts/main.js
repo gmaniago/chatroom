@@ -15,14 +15,14 @@ $(document).ready(function(){
 
 	});
 		$('#send').click(function(){
-
+			var username = '<span> You: </span>';
 			var newMessage = $('#textbox').val();
 
 			$('#textbox').val('');
 
 			var prevState = $('#container').html();
 
-			$('#container').html(prevState +'<br>'+ newMessage);
+			$('#container').html(prevState +'<br>'+ username + newMessage);
 
 			$('#container').scrollTop($('#container').prop('scrollHeight'));
 		});
